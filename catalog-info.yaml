@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nestjs"
+  description: "teste"
+  annotations:
+    github.com/project-slug: veecode-bot/https://github.com/marcelocquadros
+    backstage.io/techdocs-ref: dir:.
+    vault.io/secrets-path: devportal
+    grafana/dashboard-selector: "grafanacloud"
+    grafana/alert-label-selector: "alertname=teste-aviso"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/marcelo"
